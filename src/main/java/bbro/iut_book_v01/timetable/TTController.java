@@ -41,7 +41,7 @@ public class TTController {
         return "\n" +
                 "  <svg\n" +
                 "    style={{\n" +
-                "      position: 'absolute',\n" +
+                "      position: 'relative',\n" +
                 "      left: 0,\n" +
                 "      top: 0,\n" +
                 "    }}\n" +
@@ -49,7 +49,7 @@ public class TTController {
                 "    strokeWidth={0}\n" +
                 "    width={891}\n" +
                 "    height={630}\n" +
-                "    {...props}\n" +
+                "    {...this.props}\n" +
                 "  >\n" +
                 "   \n" +
                 "    <text\n" +
